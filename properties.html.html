@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свойства и Получение</title>
+    <link rel="stylesheet" href="style.css"> <!-- Можно вынести CSS в файл -->
+    <style>
+        /* Дублируем стили для корректной работы без внешнего файла */
+        :root { --primary: #2c3e50; --secondary: #27ae60; --bg: #f4f7f6; --text: #333; }
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; background: var(--bg); color: var(--text); margin: 0; }
+        header { background: var(--primary); color: white; padding: 2rem; text-align: center; }
+        nav { background: #fff; padding: 1rem; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        nav a { margin: 0 15px; text-decoration: none; color: var(--secondary); font-weight: bold; }
+        .container { max-width: 900px; margin: 2rem auto; padding: 0 20px; }
+        .card { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 20px; }
+        h2 { color: var(--primary); border-bottom: 2px solid var(--secondary); padding-bottom: 10px; }
+        code { background: #eee; padding: 2px 5px; border-radius: 3px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Свойства и Синтез</h1>
+    <p>Как устроены и как получаются дикарбоновые кислоты</p>
+</header>
+
+<nav>
+    <a href="index.html">Номенклатура</a>
+    <a href="properties.html">Свойства и Получение</a>
+    <a href="usage.html">Применение</a>
+</nav>
+
+<div class="container">
+    <div class="card">
+        <h2>2.2. Физические и химические свойства</h2>
+        <p>Дикарбоновые кислоты — это <strong>твёрдые кристаллические вещества</strong>, хорошо растворимые в воде. </p>
+        <ul>
+            <li><strong>Запах:</strong> Низшие кислоты могут иметь резкий запах; высшие — практически не пахнут из-за низкой летучести.</li>
+            <li><strong>Кислотность:</strong> Они сильнее одноосновных кислот. Чем ближе карбоксильные группы друг к другу, тем выше кислотность.</li>
+            <li><strong>Безопасность:</strong> При попадании на слизистые вызывают химические ожоги.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>2.3. Основные способы получения</h2>
+        <p>Методы получения зависят от требуемой чистоты и доступного сырья:</p>
+        <ol>
+            <li><strong>Окисление циклических кетонов:</strong> Разрыв цикла сильными окислителями (HNO₃, KMnO₄). 
+                <br><em>Пример:</em> Циклогексанон → Адипиновая кислота.</li>
+            <li><strong>Окисление циклоалкенов:</strong> Проводится в кислой среде при нагревании.</li>
+            <li><strong>Природные источники:</strong> Содержатся во многих растениях в свободном виде или в виде солей.</li>
+        </ol>
+    </div>
+    
+    <div style="text-align: center;">
+        <a href="usage.html" style="background: var(--secondary);" class="btn">Далее: Применение →</a>
+    </div>
+</div>
+
+</body>
+</html>
